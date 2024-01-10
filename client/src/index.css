@@ -1,0 +1,21 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* loader */
+.spinner {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+  background-color: rgba(0, 0, 0, 0.383);
+}
+
+.profileBg{
+  height: 100%;
+  background-image: url("https://img.freepik.com/free-vector/abstract-medical-wallpaper-template-design_53876-61811.jpg?w=1060&t=st=1704871829~exp=1704872429~hmac=bdd8871ee33936c9b8762ea86e3bc8064b8851a750696dc1831ea67ead5a314b");
+
+ }

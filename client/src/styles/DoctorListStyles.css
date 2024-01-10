@@ -1,0 +1,84 @@
+ /* DoctorListStyles.css */
+
+.doctor-card {
+    cursor: pointer;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.2s ease-in-out;
+    width: 30%;
+  }
+  
+  .doctor-card:hover {
+    transform: scale(1.03);
+  }
+  
+  .doctor-header {
+    padding: 15px;
+    background-color: #059d38;
+    color: #fff;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .icon {
+    margin-right: 10px;
+    font-size: 20px;
+  }
+  
+  .doctor-name {
+    font-size: 22px;
+  }
+  
+  .doctor-details {
+    padding: 15px;
+     
+  }
+  .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .detail-item {
+    display: flex;
+    align-items: center;
+   
+    margin-bottom: 10px;
+  }
+  
+  .detail-icon {
+    margin-right: 10px;
+    font-size: 15px;
+    
+    /* color: #ac34db; */
+  }
+  
+  .detail-label {
+    font-weight: bold;
+    /* padding-right: 15px; */
+    /* color: #3498db; */
+  }
+  
+  .profile-image {
+    align-self: center;
+    /* margin-top: auto; */
+  
+    width: 70px;
+    height: 90px;
+    border-radius: 20%;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  
+  
+  }
+  
+  .profile-icon {
+    font-size: 40px;
+    color: #3498db;
+  }
+  

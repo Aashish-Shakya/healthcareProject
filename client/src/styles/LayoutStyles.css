@@ -1,0 +1,196 @@
+.main {
+    padding: 10px;
+    height: 100vh;
+  }
+  .layout {
+    display: flex;
+    
+  }
+.applydoc{
+    background-image: url("../assets/blurdoc1.jpg");
+
+
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+ 
+.header{
+    background-image: url("https://img.freepik.com/free-vector/clean-medical-background_53876-116877.jpg?w=1060&t=st=1704739037~exp=1704739637~hmac=82249a9ef21434ff6d77779d1d8c5a9499b0b683fe891197261952540db21976");
+  }
+
+.home{
+background-image: url("https://img.freepik.com/free-vector/clean-medical-background_53876-116877.jpg?w=1060&t=st=1704739037~exp=1704739637~hmac=82249a9ef21434ff6d77779d1d8c5a9499b0b683fe891197261952540db21976");
+
+height: 100%;
+background-size: cover;
+background-repeat: no-repeat;
+  }
+
+
+  .bookingpage{
+    background-image: url("../assets/blurdoc.jpg");
+
+height: 100%;
+background-size: cover;
+background-repeat: no-repeat;
+  }
+  .sidebar {
+    min-height: 100%;
+    width: 300px;
+    border-radius: 5px;
+    background-color: #996bef;
+    box-shadow: 0 0 2px gray;
+    margin-right: 20px;
+    margin-left: 0px;
+    color: white;
+  }
+  
+  .content {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .header {
+    /* height: 10vh; */
+    margin-bottom: 20px;
+    box-shadow: 0 0 2px gray;
+    background-color: white;
+  }
+  .body {
+    height: 85vh;
+    margin-bottom: 20px;
+    box-shadow: 0 0 2px gray;
+    background-color: white;
+  }
+  .logo h6 {
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 20px 0px;
+  }
+  .menu {
+    margin-top: 50px;
+  }
+  .menu-item {
+    margin-top: 30px;
+  }
+  .menu-item a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+  }
+  .menu-item i {
+    font-size: 1.2rem;
+    margin: 0 15px;
+  }
+  .active {
+    background-color: white;
+    padding: 10px;
+  }
+  .active a,
+  .active i {
+    color: rgb(51, 1, 1);
+  }
+  
+  .header-content {
+    display: flex ;
+    align-items: center; 
+    justify-content: space-around; 
+    height: 60px;
+    /* justify-content: flex-end; */
+    /* margin: 0 15px; */
+    /* border: 2px solid red; */
+  }
+  
+  .header-content i {
+    margin-right: 20px;
+    font-size: 1.2rem;
+  }
+  .header-content a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: blue;
+    margin: 0 10px;
+    text-transform: uppercase;
+  }
+
+.top{
+ 
+    background-color: white;
+      border-radius: 25px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add box-shadow here */
+  }
+.bottom{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+  } 
+
+
+  
+.search-bar {
+  display: flex;
+  position: relative;
+  width: 400px;
+  /* padding: 6px; */
+
+  
+  
+  /* margin-right: 20px; */
+}
+
+.search-bar input {
+  width: 100%;
+  padding: 12px 10px;
+  border: none;
+  border-radius: 5px;
+ 
+  outline: none;
+  font-size: 10px;
+}
+
+ 
+.location-dropdown   {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 140px;
+  margin-right: 20px;
+  /* border-radius: 25px; */
+}
+
+.doctors{
+  padding: 10px;
+  background-image: url("https://img.freepik.com/free-photo/abstract-blur-hospital-clinic-interior_74190-4854.jpg?w=1060&t=st=1704825680~exp=1704826280~hmac=8b183103d2dfa47707dbdd0b2de9fcd3ecf80f60775fb9b75983a8dbeaffb73f");
+
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.users{
+  padding: 10px;
+  background-image: url("https://img.freepik.com/free-photo/abstract-blur-hospital-clinic-interior_74190-4854.jpg?w=1060&t=st=1704825680~exp=1704826280~hmac=8b183103d2dfa47707dbdd0b2de9fcd3ecf80f60775fb9b75983a8dbeaffb73f");
+
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.appoinment{
+  padding: 10px;
+  background-image: url("https://img.freepik.com/free-photo/abstract-blur-hospital-clinic-interior_74190-4854.jpg?w=1060&t=st=1704825680~exp=1704826280~hmac=8b183103d2dfa47707dbdd0b2de9fcd3ecf80f60775fb9b75983a8dbeaffb73f");
+
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.appoinment table td{
+  background-color: rgba(225, 218, 218, 0.337);
+}
+ 
